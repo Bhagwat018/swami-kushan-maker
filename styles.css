@@ -1,0 +1,212 @@
+/* ==========================================================================
+   Shri Swami Samartha Kushan Maker — Modern Artisan Stylesheet
+   Nashik, Maharashtra
+   Bilingual Support (English & Marathi) + High-Converting UI Engine
+   ========================================================================== */
+
+:root {
+  --color-cream-50: #FCFAF8;
+  --color-cream-100: #FAF8F5;
+  --color-cream-200: #F4EFEA;
+  --color-cream-300: #EADFD5;
+  --color-walnut-950: #1D1714;
+  --color-walnut-900: #2C2420;
+  --color-walnut-800: #3E332D;
+  --color-walnut-700: #554740;
+  --color-walnut-600: #6D5C54;
+  --color-terracotta: #9E472A;
+  --color-terracotta-dark: #802B13;
+  --color-terracotta-light: #B85939;
+  --color-gold: #B8860B;
+  --color-gold-light: #D4AF37;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-dark: #128C7E;
+}
+
+/* Base Smoothing & Typography */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-cream-100);
+  color: var(--color-walnut-900);
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+/* Marathi Typography Engine */
+body.lang-mr {
+  font-family: 'Yantramanav', 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+}
+
+body.lang-mr .font-serif,
+body.lang-mr .font-serif-heading {
+  font-family: 'Noto Sans Devanagari', 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.font-serif-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFEA;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B5A5;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-terracotta);
+}
+
+/* Hide scrollbar for horizontal chip rows */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Artisan Shadows */
+.artisan-shadow {
+  box-shadow: 0 10px 30px -10px rgba(44, 36, 32, 0.08), 0 4px 12px -4px rgba(44, 36, 32, 0.04);
+}
+
+.artisan-shadow-lg {
+  box-shadow: 0 20px 40px -15px rgba(44, 36, 32, 0.12), 0 8px 20px -6px rgba(44, 36, 32, 0.06);
+}
+
+.artisan-shadow-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.artisan-shadow-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 35px -10px rgba(44, 36, 32, 0.14), 0 8px 16px -4px rgba(158, 71, 42, 0.10);
+}
+
+.badge-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Pulsing effect for WhatsApp floating button */
+@keyframes pulse-soft {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+  }
+}
+
+.pulse-whatsapp {
+  animation: pulse-soft 2.5s infinite ease-in-out;
+}
+
+/* Image zoom effect on card hover */
+.img-zoom-container {
+  overflow: hidden;
+}
+.img-zoom-container img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.img-zoom-container:hover img {
+  transform: scale(1.05);
+}
+
+/* Lightbox Modal Animation */
+#galleryModal {
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+#galleryModal.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+#galleryModal:not(.hidden) {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Glassmorphism Navigation */
+.nav-glass {
+  background: rgba(252, 250, 248, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Active link highlight in navigation */
+.nav-link-active {
+  color: var(--color-terracotta) !important;
+  font-weight: 700;
+  position: relative;
+}
+.nav-link-active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--color-terracotta);
+  border-radius: 2px;
+}
+
+/* Pattern overlay for craft background */
+.bg-craft-pattern {
+  background-color: #FAF8F5;
+  background-image: radial-gradient(#9E472A 0.6px, transparent 0.6px), radial-gradient(#9E472A 0.6px, #FAF8F5 0.6px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Custom Accordion Chevron Rotation */
+.faq-btn[aria-expanded="true"] .chevron-icon {
+  transform: rotate(180deg);
+}
+
+/* Mobile Friendly Form inputs (Prevents auto-zoom on iOS Safari) */
+@media screen and (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Safe area padding for notched mobile phones */
+.mobile-safe-bottom {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
+
+/* Scroll-to-top button */
+#scrollToTopBtn {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#scrollToTopBtn.hidden-btn {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+}
+#scrollToTopBtn.visible-btn {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
