@@ -8,8 +8,8 @@ Modern, trustworthy, high-converting business website for **Shri Swami Samartha 
 
 1. **100% Real Client Work Showcase (अस्सल काम):**
    - **Replaced All Stock/Internal Imagery:** Every single placeholder has been replaced with authentic, verified photographs of real projects completed by Shri Swami Samartha Kushan Maker in Nashik.
-   - **AI-Powered Visual Recognition:** Processed 25 real workshop photos using Google Gemini Vision AI (`gemini-3.5-flash-lite`), categorizing them into Sofa Cushions, Traditional Cotton Mattresses, Reupholstery, and Custom Designer Curtains.
-   - **Expanded 12-Item Portfolio Grid:** Filterable by *All Works*, *Sofa Cushions (कुशन)*, *Gadi & Mattresses (गादी)*, *Sofa Repair & Upholstery*, and *Designer Curtains (पडदे)*.
+   - **AI-Powered Visual Recognition:** Processed and verified all 25 real workshop photos using Google Gemini Vision AI (`gemini-3.5-flash-lite`), categorizing them into Sofa Cushions, Traditional Cotton Mattresses, Sofa Repair & Reupholstery, Wooden Sofa & Diwan Sets, and Custom Designer Curtains.
+   - **Expanded 25-Item Portfolio Grid:** Filterable by *All Works (सर्व कामे)*, *Sofa Cushions (कुशन)*, *Gadi & Mattresses (गादी)*, *Sofa Repair & Upholstery*, *Wooden Sofa & Diwans*, and *Designer Curtains (पडदे)*.
    - **Dual-Language Lightbox Modal:** Full Marathi (देवनागरी) and English titles, descriptions, and dynamic WhatsApp inquiry routing for each real design.
 
 2. **Live Interactive Map & Google Maps Integration:**

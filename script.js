@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
       flt_upholstery: 'Sofa Repair & Upholstery',
       flt_diwan: 'Wooden Sofa & Diwans',
       flt_curtains: 'Designer Curtains (पडदे)',
+      gallery_inspect_btn: 'Click to Inspect',
 
       // Localities
       loc_tag: 'Local Doorstep Service',
@@ -339,6 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
       flt_upholstery: 'सोफा दुरुस्ती व अपहोल्स्ट्री',
       flt_diwan: 'लाकडी सोफा व दिवाण',
       flt_curtains: 'डिझायनर पडदे (Curtains)',
+      gallery_inspect_btn: 'फोटो पहा',
 
       // Localities
       loc_tag: 'स्थानिक घरपोच सेवा',
