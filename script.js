@@ -75,9 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
       s5_desc: 'Round and square bolsters (takya), diwan backrest wedges, tufted pillow sets, and mattress protectors in coordinated patterns.',
       s5_t1: 'Round Bolsters', s5_t2: 'Diwan Sets', s5_t3: 'Microfiber & Cotton',
 
-      s6_title: 'Commercial & Clinic Seating',
-      s6_desc: 'Heavy-duty Rexine & leatherette upholstery for hospital beds, doctor clinics, gym benches, hotel lounges, and office reception seating.',
-      s6_t1: 'Hospital Grade Rexine', s6_t2: 'Stain Resistant', s6_t3: 'Bulk Orders',
+      s6_title: 'Custom Designer Curtains & Seating',
+      s6_desc: 'Tailored window and door curtains, sheer drapery, eyelet pleats, clinic exam beds, and heavy-duty office seating reupholstery.',
+      s6_t1: 'Designer Curtains', s6_t2: 'Precision Pleats', s6_t3: 'Clinic Rexine',
 
       card_cta: 'Get Quote on WhatsApp',
 
@@ -132,13 +132,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Showcase Section
       gallery_tag: 'Our Portfolio',
-      gallery_title: 'Craftsmanship in Focus',
-      gallery_desc: 'Explore our real finished projects across living rooms, wooden diwans, and custom bedrooms throughout Nashik. Click any image to view details.',
-      flt_all: 'All Works',
+      gallery_title: 'Real Projects & Finished Craftsmanship',
+      gallery_desc: 'Explore 100% authentic finished projects photographed directly from our workshop and customer living rooms across Nashik. Click any photo to view full details.',
+      flt_all: 'All Real Works',
       flt_cushions: 'Sofa Cushions (Kushan)',
       flt_mattress: 'Gadi & Mattresses',
       flt_upholstery: 'Sofa Repair & Upholstery',
-      flt_diwan: 'Diwan Sets & Bolsters',
+      flt_diwan: 'Wooden Sofa & Diwans',
+      flt_curtains: 'Designer Curtains (पडदे)',
 
       // Localities
       loc_tag: 'Local Doorstep Service',
@@ -273,9 +274,9 @@ document.addEventListener('DOMContentLoaded', () => {
       s5_desc: 'दिवाणसाठी गादी, गोल लोड (तक्के), पाठीचे चौकोनी कुशन, लोड कव्हर आणि मॅट्रेस प्रोटेक्टर डिझायनर मॅचिंगमध्ये तयार करून मिळतील.',
       s5_t1: 'गोल लोड (तक्के)', s5_t2: 'दिवाण सेट', s5_t3: 'मायक्रोफायबर व कापूस',
 
-      s6_title: 'दवाखाने, क्लिनिक व कमर्शियल सिटिंग',
-      s6_desc: 'हॉस्पिटल बेड, डॉक्टरांचे तपासणी टेबल, जिम बेन्च, हॉटेल व ऑफिसच्या वेटिंग एरियासाठी मजबूत वॉटरप्रूफ रेक्झिन सिटिंग कामे.',
-      s6_t1: 'वॉटरप्रूफ रेक्झिन', s6_t2: 'डागमुक्त व टिकाऊ', s6_t3: 'मोठ्या ऑर्डर्स',
+      s6_title: 'कस्टम डिझायनर पडदे व सिटिंग',
+      s6_desc: 'खिडक्या व दरवाजांसाठी कस्टमाइझ केलेले आकर्षक पडदे, प्लेट्स, क्लिनिक बेड्स आणि ऑफिस सिटिंगचे काम.',
+      s6_t1: 'डिझायनर पडदे', s6_t2: 'अचूक प्लेट्स', s6_t3: 'क्लिनिक रेक्झिन',
 
       card_cta: 'व्हॉट्सॲपवर चौकशी करा',
 
@@ -330,13 +331,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Showcase Section
       gallery_tag: 'आमचे काम',
-      gallery_title: 'तयार केलेल्या कामांची झलक',
-      gallery_desc: 'नाशिकमधील घरांमध्ये तयार केलेले सोफा कुशन, कापूस गादी आणि सोफा दुरुस्ती कामाचे फोटो खाली पहा. फोटोवर क्लिक करून अधिक माहिती मिळवा.',
+      gallery_title: 'प्रत्यक्ष पूर्ण केलेल्या कामांचे फोटो',
+      gallery_desc: 'आमच्या म्हसरूळ कार्यशाळेत आणि नाशिकमधील ग्राहकांच्या घरी प्रत्यक्ष तयार केलेल्या फर्निचर, गादी व पडद्यांचे अस्सल फोटो खाली पहा. फोटोवर क्लिक करून संपूर्ण माहिती मिळवा.',
       flt_all: 'सर्व कामे',
       flt_cushions: 'सोफा कुशन (कुशन)',
       flt_mattress: 'गादी व मॅट्रेस',
       flt_upholstery: 'सोफा दुरुस्ती व अपहोल्स्ट्री',
-      flt_diwan: 'दिवाण सेट व लोड',
+      flt_diwan: 'लाकडी सोफा व दिवाण',
+      flt_curtains: 'डिझायनर पडदे (Curtains)',
 
       // Localities
       loc_tag: 'स्थानिक घरपोच सेवा',
