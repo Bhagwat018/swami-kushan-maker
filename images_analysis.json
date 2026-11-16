@@ -323,5 +323,31 @@
     "details_mr": "• संपूर्ण लाकडी फ्रेमचे अपहोल्स्ट्री काम\n• आकर्षक टील वेलव्हेट फॅब्रिक\n• मजबूत स्प्रिंग व वेबिंग सपोर्ट\n• कोपऱ्याचे अचूक टेलरिंग",
     "best_for": "gallery",
     "image": "images/work_25.jpg"
+  },
+  "shop_front.jpg": {
+    "category": "upholstery",
+    "category_label_en": "Our Workshop",
+    "category_label_mr": "आमची कार्यशाळा",
+    "title_en": "Mhasrul Gaon Workshop & Handcrafting Porch",
+    "title_mr": "म्हसरूळ कार्यशाळा व थेट हातशिलाई",
+    "desc_en": "Our actual physical workshop in Mhasrul Gaon, Nashik with master artisan S. A. Rahatal hand-stitching traditional pure cotton mattresses.",
+    "desc_mr": "नाशिक म्हसरूळ गावातील आमची खरी कार्यशाळा — प्रोप्रा. एस. ए. रहाटळ यांच्याकडून अस्सल कापूस गादीची प्रत्यक्ष हातशिलाई.",
+    "details_en": "• Real physical workshop in Mhasrul Gaon\n• Live cotton carding and hand-tufting\n• Direct artisan consultation\n• Over two decades of local Nashik trust",
+    "details_mr": "• म्हसरूळ गावातील प्रत्यक्ष कार्यशाळा\n• कापूस पिंजणे व हातशिलाई काम\n• थेट कारागिरांशी प्रत्यक्ष चर्चा\n• वर्षानुवर्षांचा नाशिकमधील विश्वास",
+    "best_for": "workshop_proof",
+    "image": "images/shop_front.jpg"
+  },
+  "shop_banner.jpg": {
+    "category": "mattress",
+    "category_label_en": "Official Card",
+    "category_label_mr": "अधिकृत कार्ड",
+    "title_en": "Official Signboard & Complete Service Card",
+    "title_mr": "अधिकृत बोर्ड व सेवा माहिती",
+    "desc_en": "Official workshop signboard featuring proprietor S. A. Rahatal, contact +91 92712 53505, and complete range of gadi, kushan, and upholstery services.",
+    "desc_mr": "श्री स्वामी समर्थ गादी ॲण्ड कुशन मेकरचा अधिकृत बोर्ड — प्रोप्रा. एस. ए. रहाटळ (मो. ९२७१२५३५०५), गादी, सोफा व कव्हर सेवांची माहिती.",
+    "details_en": "• Official business registration details\n• Proprietor: S. A. Rahatal (+91 92712 53505)\n• Complete service catalog on display\n• Guaranteed genuine factory prices",
+    "details_mr": "• अधिकृत व्यवसायाची संपूर्ण माहिती\n• प्रोप्रा. एस. ए. रहाटळ (मो. ९२७१२५३५०५)\n• सर्व गादी व कुशन सेवांची यादी\n• रास्त आणि योग्य भाव",
+    "best_for": "brand_trust",
+    "image": "images/shop_banner.jpg"
   }
 }

@@ -183,6 +183,11 @@ document.addEventListener('DOMContentLoaded', () => {
       map_status: 'Google Maps Verified Workshop',
       map_landmark: 'Opposite Soham Misal, Makhmalabad Link Road, Mhasrul, Nashik 422004',
       map_btn: 'Open in Google Maps & Get Directions',
+      shop_badge: 'Authentic Workshop & Signboard',
+      shop_title: 'Shri Swami Samartha Gadi & Kushan Maker',
+      shop_prop: 'Proprietor: S. A. Rahatal • Mo. +91 92712 53505',
+      shop_front_lbl: 'Live Workshop & Hand-Stitching',
+      shop_banner_lbl: 'Official Signboard & Visiting Card',
 
       // Quick Lead Form
       form_tag: 'Fast Response',
@@ -383,6 +388,11 @@ document.addEventListener('DOMContentLoaded', () => {
       map_status: 'गुगल मॅप्स व्हेरिफाइड कार्यशाळा',
       map_landmark: 'सोहम मिसळ समोर, मखमलाबाद लिंक रोड, म्हसरूळ, नाशिक ४२२००४',
       map_btn: 'गुगल मॅप्सवर रस्ता व पत्ता पहा',
+      shop_badge: 'प्रत्यक्ष कार्यशाळा व अधिकृत फलक',
+      shop_title: 'श्री स्वामी समर्थ गादी ॲण्ड कुशन मेकर',
+      shop_prop: 'प्रोप्रा. एस. ए. रहाटळ • मो. ९२७१२५३५०५',
+      shop_front_lbl: 'थेट कार्यशाळा व हातशिलाई',
+      shop_banner_lbl: 'अधिकृत बोर्ड व व्हिजिटिंग कार्ड',
 
       // Quick Lead Form
       form_tag: 'त्वरित प्रतिसाद',
